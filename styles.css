@@ -308,3 +308,30 @@ footer {
         padding: 24px;
     }
 }
+
+/* Timeline (progress) styles */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 18px;
+}
+
+.timeline-item {
+    background: linear-gradient(135deg, rgba(13,23,39,0.5), rgba(13,23,39,0.35));
+    border: 1px solid rgba(94,234,212,0.12);
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+.timeline-item h4 {
+    margin: 0 0 6px 0;
+    color: #60dacb;
+    font-size: 1.05rem;
+}
+
+.timeline-item p {
+    margin: 0;
+    color: #dfeff2;
+}
